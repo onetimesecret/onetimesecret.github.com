@@ -5,35 +5,34 @@ bodyid: blog
 ---
 
 
-  {% for post in site.posts limit:3 %}
-<div class="entry">
+{% for post in site.posts limit:3 %}
+  <div class="entry">
   
-  <a href="{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</h2></a>
-  <div class="info">
-    <span class="day">{{ post.date | date: "%A" }}, {{ post.date | date: "%b" }} {{ post.date | date: "%d" }} {{ post.date | date: "%Y" }}</span>
-    <div class="author">posted by {{ post.who }}</div>
+    <a href="{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</h2></a>
+    <div class="info">
+      <span class="day">{{ post.date | date: "%A" }}, {{ post.date | date: "%b" }} {{ post.date | date: "%d" }} {{ post.date | date: "%Y" }}</span>
+      <div class="author">posted by {{ post.who }}</div>
+    </div>
+    
+    <!--
+    categories [
+      {% for topic in post.topics %}
+        {{ topic }}
+      {% endfor %}
+    ]
+    -->
+    
+     <div class="content">
+       {{ post.content }}
+     </div>
+     
   </div>
   
-  <!--
-  categories [
-    {% for topic in post.topics %}
-      {{ topic }}
-    {% endfor %}
-  ]
-  -->
+  {% if forloop.rindex0 > 0 %}
+    <div class="separator"></div>
+  {% endif %}
+{% endfor %}
    
-   <div class="content">
-   {{ post.content }}
-   <hr class="dotted" />
-   </div>
-
-</div>
-
-    {% if forloop.rindex0 > 0 %}
-      <div id="separator"></div>
-    {% endif %}
-   {% endfor %}
    
-
    
    <div style="margin: 40px 0 0 40px;"><h3>See <a href="/archive/">the archive</a> for more</h3></div>

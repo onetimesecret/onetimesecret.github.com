@@ -425,10 +425,22 @@ table.pricing tr.pricinglastrow td {
   color: #999;
 }
 
-.entry h2 {
+.entry h2, .entry h3, .entry h4 {
   margin: 0px; padding: 0px;
 }
 
 .entry .content {
   margin: 8px;
 }
+
+div.separator {
+  width: 420px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  border-top:1px dotted #666;
+  margin-bottom: 40px;
+}
+
+.hilight {background:#ff0;}
+.hilight2 {background:#6FF;} 
