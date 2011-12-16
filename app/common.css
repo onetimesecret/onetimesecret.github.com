@@ -1,0 +1,408 @@
+body { font-family: georgia; margin: 0px; padding: 0px }
+h1 { font-size: 16px; } /* Font Name: Graceful, Serifcap */
+h1 a { text-decoration: none; color: #000}
+hr {background:#fff;color:#fff;clear:both;float:none;width:100%;height:.1em;border:none;}
+#header {
+  margin-bottom: 40px;
+}
+
+#header h1, #header pre {
+  margin: 0px; padding: 0px;
+}
+
+#sitenav {
+  margin-top: 10px;
+  margin-right: 20%;
+  margin-bottom: 5px;
+  padding: 0px;
+  line-height: 80%;
+  font-size: 80%;
+  color: #999;
+  margin-right: 10%;
+  float: right;
+}
+
+#sitenav a {
+  color: #000;
+}
+
+#sitenav a.standout {
+  font-weight: bold;
+}
+
+a {
+  color: #000;
+}
+
+form.signup {
+  width: 600px;
+  clear:both;
+  margin-left: 40px;
+}
+form.signup div {  
+  background-color: #eee;
+  padding: 10px;
+}
+form.signup label{clear:both;display:block;width:300px;font-style: italic} 
+form.signup input{clear:both;display:block;font-size: 24px;} 
+
+input.short { width:220px; }
+input.long { width:380px; }
+
+#corset {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#content {
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+#content p {
+  width: 100%;
+}
+
+#faq {
+  margin-top: 60px;
+  color: #444;
+}
+#footer {
+  width: 620px;
+  margin-top: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 80%;
+  line-height: 80%;
+  padding: 0px;
+  padding-top: 10px;
+  color: #999;
+}
+
+#footer a {
+  color: #000;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 4px;
+}
+
+.nav {
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.nav a {
+  color: #000;
+}
+
+.nav li {
+  list-style-type: none;
+}
+.nav li.primary {line-height: 36px; font-size: 26px;}
+.nav li.secondary {font-size:16px; line-height: 16px}
+.nav li.alt {font-size:24px; line-height: 24px}
+
+.nav li.or {
+  color: #999;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.nav em { font-style: normal; text-decoration: underline; }
+#content .intro {
+  width: 600px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#content .intro2 {
+  font-size: 20px;
+}
+
+#content #createSecret {
+  width: 620px;
+}
+
+.dotted{border-top:1px dotted #666;}
+
+
+.private{font-size: 18px; line-height: 18px; margin-top: 10px;}
+#generate .secret input {width: 620px; font-size: 16px; line-height: 16px; padding: 6px; margin: 6px 0px 6px 0px;}
+.private .secret input, .private .secret textarea { background-color: #eee; color: #666; padding: 5px; width: 90%;}
+.private .secret input[disabled] { background-color: #eee; color: #fff;}
+.shared .secret input, .shared .secret textarea { border: 1px solid black; font-size: 16px; line-height: 16px; background-color: #fff; color: #000; padding: 5px; width: 90%;}
+.secret p {padding: 6px; font-size: 80%; margin: 0px; color: #999; font-style: italic;}
+.uri input {width: 620px; font-size: 16px; line-height: 16px; padding: 6px; border: 0px; background-color: #ff0;}
+.uri p {padding: 6px; font-size: 80%; margin: 0px; color: #999;}
+.passphrase { margin-bottom: 30px; margin-left: 30px; }
+.passphrase input {width: 320px; font-size: 16px; line-height: 16px; padding: 6px; border: 0px; background-color: #eee; color: #000;}
+.passphrase p {padding: 6px; font-size: 80%; margin: 0px; color: #999;}
+.secret {margin-bottom: 20px}
+.uri{margin-bottom: 10px}
+.pretext {
+  line-height: 24px;
+  font-size: 24px;
+}
+.passphrase .pretext {
+  line-height: 18px;
+  font-size: 18px;
+}
+.nav .context {
+  line-height: 16px;
+  font-size: 16px;
+  color: #999;
+}
+
+
+
+#banner {
+  width: 100%;
+  background-color: #ff6;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 4px solid red;
+}
+
+#banner .broadcast {
+  text-align: center;
+  color: #000;
+  font-weight: bolder;
+}
+
+.secretValue {width: 550px; font-size: 16px; line-height: 16px; padding: 6px; border: 1px solid #000; clear: both}
+
+.tagline { width: 100%; text-align: center; font-style: italic; color: #999; margin-top: 20px; }
+
+input[type=submit] {
+}
+
+#optionsBlock {
+  width: 540px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: #eee;
+}
+
+#optionsToggle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#optionsToggle a {
+  color: #000;
+}
+
+#options {
+  display: none;
+  padding: 6px;
+  background-color: #eee;
+}
+#options input {
+  width: 375px; font-size: 14px; line-height: 14px; padding: 6px; border: 1px solid #999; clear: both;
+}
+
+#fire button{width:280px; margin-top: 10px}
+#fireSmall button{width:210px; margin-top: 10px}
+
+#brandedlogo {
+  height: 120px;
+  width: 720px;
+  margin: 10px 0px;
+  background: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.button button {
+  background-color: #e33100;
+  border-left: 1px solid red;
+  border-top: 1px solid red;
+  border-right: 1px solid #740500;
+  border-bottom: 1px solid #740500;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: Georgia,serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 10px;
+  overflow: visible;
+  margin: 0;
+  text-shadow: 1px 1px 0 #740500;
+  width: 100%;
+}
+.button button:hover {
+  border-left: 1px solid #740500;
+  border-top: 1px solid #740500;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+  text-shadow: 2px 1px 0 #000;
+}
+.feedback {
+  margin-bottom: 10px;
+}
+.feedback input {
+  width: 500px;
+  font-size: 16px;
+  padding: 6px 5px;
+  color: #666;
+}
+.feedback button {
+  width: 90px;
+  background-color: #ccc;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  color: #333;
+  cursor: pointer;
+  font-family: Georgia,serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 5px;
+  overflow: visible;
+  margin: 0;
+  text-shadow: 1px 1px 0 #eee;
+}
+.feedback button:hover {
+  border-left: 1px solid #666;
+  border-top: 1px solid #666;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-shadow: 1px 1px 0 #fff;
+  color: #666;
+}
+
+.err, .msg { font-weight: bold; padding: 8px; line-height: 32px; width: 100%; }
+.err { background-color: red; color: #fff }
+.msg { background-color: #ff0; }
+
+.address { margin-left: 150px; font-size: 24px; line-height: 24px; }
+
+table.pricing td.pricingheader {
+  border: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.pricing tr.blankrow td.bestvalue {
+  border-top-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  border-top-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.pricing td.action {
+  font-size: 24px;
+}
+
+table.pricing td {
+  padding: 4px;
+  margin: 0px;
+  border: 1px solid #cccccc;
+  white-space: nowrap;
+}
+
+table.pricing td.bestvalue {
+  background-color: #ff0; /*#C3CDE3;*/
+  border: 1px solid #243661 !important;
+  border-right: 2px solid #243661 !important;
+  border-left: 2px solid #243661 !important;
+}
+
+table.pricing tr.blankrow td.bestvalue {
+  border-top: 2px solid #243661 !important;
+  border-right: 2px solid #243661 !important;
+  border-left: 2px solid #243661 !important;
+}
+
+table.pricing tr.bottomblankrow td.bestvalue {
+  border-bottom: 2px solid #243661 !important;
+}
+
+table.pricing td.pricingfeature {
+  text-align: left;
+  font-style: italic;
+  border-left: none; 
+  padding: 2px 4px 2px 2px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+table.pricing tr.blankrow td {
+  border: none;
+  text-align: center;
+}
+
+table.pricing tr.bottomblankrow td,
+table.pricing tr.pricingheading td.blankcell {
+  border: none;
+  text-align: center;
+}
+
+table.pricing {
+  font-size: 14px;
+}
+
+td.topleft {
+  border-left: 2px solid black !important;
+  border-top-left-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+}
+
+td.topright {
+  border-right: 2px solid black !important;
+  border-top-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+}
+
+table.pricing tr.pricingeven {
+  background-color: #eeeeee;
+}
+
+table.pricing tr.prices {
+  font-size: 24px;
+  text-align: center;
+}
+
+table.pricing td.lastcolumn {
+  border-right: none; 
+}
+
+table.pricing tr.pricinglastrow td {
+  border-bottom: 2px solid #cccccc;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.lighter { color: #999 }
+.smaller { font-size: 80%; }
+.centre { text-align: center }
+
+.socialicon {
+  padding-right: 8px;
+}
+
+.highlight {background:#fafafa; padding: 12px; border-right: 3px solid red; border-top: 1px solid #999; border-left: 1px solid #999;}
+.highlight2 {background:#6FF;} 
+
+
+#footer .label {
+  color: #999; float: left; padding-left: 8px
+}

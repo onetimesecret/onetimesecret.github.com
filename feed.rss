@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>The One-Time Secret Blog</title>
+ <link href="http://blog.onetimesecret.com/feed.rss" rel="self"/>
+ <link href="http://blog.onetimesecret.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://blog.onetimesecret.com/</id>
+ <author>
+   <name>One-Time Secret</name>
+   <email>blog@onetimesecret.com</email>
+ </author>
+ 
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://blog.onetimesecret.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://blog.onetimesecret.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
