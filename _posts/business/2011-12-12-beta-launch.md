@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Whoomp! There it is. We're now in beta'
+title: "Whoomp! There it is. We're now in beta"
 who: delano
 ---
 
@@ -9,10 +9,11 @@ We received a tonne of feedback since our [alpha launch](/2011/11/07/alpha-launc
 ### Key improvements ###
 
 * A REST API
-* Secrets can now live for up to 90 days
-* Many UI improvements
-* A mini-feedback form at the bottom of every page
 * User accounts and paid plans
+* Secrets can now live for up to 90 days
+* A feedback form at the bottom of every page
+* A bunch of infrastructure improvements
+* Many UI improvements
 
 <a class="msg" href="https://onetimesecret.com/pricing">Go ahead and create an account!</a>
 
@@ -30,6 +31,7 @@ There were over 10,000 uniques the day we launched which dwarfs the rest of the 
 #### December 2011 (so far) ####
 
 <a class="indent" href="http://cl.ly/3S3U1a2r3r3s2A012B12/o"><img src="http://f.cl.ly/items/0z093E3k3g0u2M1Y1r3I/Screen%20shot%202011-12-16%20at%207.11.39%20PM.png" /></a>
+
 
 #### Top Referrers ####
 
