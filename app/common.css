@@ -393,15 +393,13 @@ table.pricing tr.pricinglastrow td {
 
 .lighter { color: #999 }
 .smaller { font-size: 80%; }
+.bigger { font-size: 120%; }
 .centre { text-align: center }
+.indent {margin-left: 20px}
 
 .socialicon {
   padding-right: 8px;
 }
-
-.highlight {background:#fafafa; padding: 12px; border-right: 3px solid red; border-top: 1px solid #999; border-left: 1px solid #999; border-bottom: 1px solid #999;}
-.highlight2 {background:#6FF;} 
-
 
 #footer .label {
   color: #999; float: left; padding-left: 8px
@@ -418,7 +416,7 @@ table.pricing tr.pricinglastrow td {
   padding-left: 8px;
   padding-top: 0px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .info .author {
@@ -431,6 +429,11 @@ table.pricing tr.pricinglastrow td {
 
 .entry .content {
   margin: 8px;
+}
+
+.entry .hnlink {
+  font-size: 80%;
+  font-style: italic;
 }
 
 div.separator {
