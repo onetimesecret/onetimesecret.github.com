@@ -12,7 +12,7 @@ everyone who has contacted us and helping us make One-Time Secret better.
 
 <p>
 There are a couple of questions that are asked fairly frequently that have to
-do with usage, security and trust. People are rightfully leery of tursting third
+do with usage, security and trust. People are rightfully leery of trusting third
 party services with their sensitive data and want to know what steps we are taking
 to protect it, and what they can do as well. Here are the three most popular questions
 we get in this area:
@@ -55,7 +55,7 @@ lead to mistakes. There are steps that you can do to help protect your data:
 via another means (chat, phone, email, etc.).</li>
 <li>Obfuscate the data so that it requires some other context to understand what it is. For example, for credit cards, you
 could put some of the groups of numbers backwards and split it into multiple secrets. Let the recipient know how
-to decipher the data via some other means (although, for truely sensitive data, GPG is still better).</li>
+to decipher the data via some other means (although, for truly sensitive data, GPG is still better).</li>
 <li>Use the passphrase option when sending a message. We use that to encrypt the secret when storing it in the database, and we
 don't store the passphrase at all. So, even if we wanted to read the data, we wouldn't be able to without the passphrase.</li>
 <li>You could even use any combination of the above (or all), depending on how sensitive the data was.</li>
@@ -69,7 +69,7 @@ yourself from them.</p>
 <h4><em>Q: Why don't you make it so that the user can't copy/paste the secret? Screenshots should be disabled too!</em></h4>
 
 <p> Now, I think this question is a bit bizarre and betrays a misunderstanding of how HTML, browsers and 
-the web work in general. There isn't any way that we could make secrets visable by humans and not
+the web work in general. There isn't any way that we could make secrets visible by humans and not
 allow screen captures to work, not to mention that it would make the One-Time Secret much less useful and 
 somewhat cumbersome if we could actually do this. The point of One-Time Secret is to allow users to pass data
 to another party so that they can do something useful with it (read it, enter it into some other tool, use
