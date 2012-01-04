@@ -447,3 +447,8 @@ div.separator {
 
 .hilight {background:#ff0;}
 .hilight2 {background:#6FF;} 
+
+.highlight pre {
+  background-color: #eee;
+  padding: 10px;
+}
