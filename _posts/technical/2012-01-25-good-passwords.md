@@ -77,7 +77,7 @@ and they will do something that will end up being worse.</p>
 <p>What makes these passwords good? Well, they have a lot of entropy — upper case and lower case letters, punctuation
 and numbers — and they're something that I can remember easily. Who wouldn't like 99 cakes? (ignoring health concerns
 of course!), and The 5th Element was awesome! Now, ironically, these are now <strong>bad</strong> passwords, because 
-they was suggested as a good ones on a blog with a focus on security! So, don't use them, but instead, use something 
+they were suggested as a good ones on a blog with a focus on security! So, don't use them, but instead, use something 
 similar that is meaningful for you. You try a couple of them, and use 
 <a href="https://www.microsoft.com/security/pc-security/password-checker.aspx">Microsoft's web tool that checks password
 strength</a> to see if they hold up.
