@@ -84,7 +84,7 @@ of attack.
 <p class="indent">
 The way trojans are used to get your credentials are often by installing key-stroke tracking software
 on your computer. Once this is done, everything you type is logged and sporadically sent off to 
-a malicious server somewhere where the data is collected an analyzed for specific types of patterns,
+a malicious server somewhere where the data is collected and analyzed for specific types of patterns,
 (credit card numbers, usernames and passwords) or used to gather private information (emails, chats
 or other typed documents).
 </p>
@@ -94,7 +94,7 @@ Protecting yourself from trojans is getting more difficult these days, since tro
 of common shareware and freeware software available for download have been found on what were 
 <a href="http://www.tomsguide.com/us/CNET-CBS-Malware-Trojan-Nmap,news-13410.html">previously 
 thought of as very reputable sites</a>. The best way to protect yourself is to never download
-software from unknown websites, or treat any executables emailed to you with extreme caution. With
+software from unknown websites, and treat any executables emailed to you with extreme caution. With
 very few exceptions, the best course of action is to delete the email and not click on anything inside it.
 </p>
 
