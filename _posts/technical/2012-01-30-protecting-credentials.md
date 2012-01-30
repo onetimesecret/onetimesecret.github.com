@@ -33,7 +33,7 @@ The term '<a href="http://en.wikipedia.org/wiki/Phishing">phishing</a>' is a hac
 from 'fishing', implying that there is a bait and that someone is waiting for a bite from a victim. 
 This is because phishing attacks often involve sending a potential victim some sort of request or 
 message, often forged or made to look like it is from some other individual or company. The 
-'bait' is message that is a call to action on the victims part, enticing them to give 
+'bait' is a message that is a call to action on the victims part, enticing them to give 
 up some private information.
 </p>
 <p class="indent"> For example: they might send an email claiming to be your bank informing you that 
