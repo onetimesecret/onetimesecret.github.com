@@ -4,7 +4,7 @@ title: One-Time Secret is Now Opensource
 who: delano
 ---
 
-Today we're happy to announce the first opensource release of the [One-Time Secret code](https://github.com/onetimesecret/onetimesecret) under the MIT License. This is something we wanted to do from the very beginning but life and other work got in the way. It's important that we do everything we can to earn and maintain your trust and this is a crucial step in that direction. Also, *it's just the right thing to do.*
+We launched One-Time Secret on [November 8th, 2011](http://news.ycombinator.com/item?id=3207489). Today we're happy to announce the first opensource release of the One-Time Secret codebase under the MIT License. This is something we wanted to do from the very beginning but life and other work got in the way. It's important that we do everything we can to earn and maintain your trust and this is a crucial step in that direction. Also, *it's just the right thing to do.*
 
 <div class="right lighter inline">
   <a href="http://www.flickr.com/photos/seeminglee/8357585327/"><img src="http://farm9.staticflickr.com/8238/8357585327_c1852189f3_m.jpg" /></a>
