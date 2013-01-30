@@ -51,4 +51,4 @@ When you send people sensitive info like passwords and private links via email o
 <a class="msg" href="https://onetimesecret.com/">Share a secret!</a>
 
 
-<a href="https://news.ycombinator.com/item?id=5139696" class="hnlink">Discuss on Hacker News</a>
+<a href="https://news.ycombinator.com/item?id=5140778" class="hnlink">Discuss on Hacker News</a>
