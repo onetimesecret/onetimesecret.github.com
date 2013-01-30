@@ -39,12 +39,12 @@ form.signup {
   clear:both;
   margin-left: 40px;
 }
-form.signup div {  
+form.signup div {
   background-color: #eee;
   padding: 10px;
 }
-form.signup label{clear:both;display:block;width:300px;font-style: italic} 
-form.signup input{clear:both;display:block;font-size: 24px;} 
+form.signup label{clear:both;display:block;width:300px;font-style: italic}
+form.signup input{clear:both;display:block;font-size: 24px;}
 
 input.short { width:220px; }
 input.long { width:380px; }
@@ -337,7 +337,7 @@ table.pricing tr.bottomblankrow td.bestvalue {
 table.pricing td.pricingfeature {
   text-align: left;
   font-style: italic;
-  border-left: none; 
+  border-left: none;
   padding: 2px 4px 2px 2px;
   font-size: 14px;
   background-color: #fff;
@@ -380,7 +380,7 @@ table.pricing tr.prices {
 }
 
 table.pricing td.lastcolumn {
-  border-right: none; 
+  border-right: none;
 }
 
 table.pricing tr.pricinglastrow td {
@@ -393,9 +393,26 @@ table.pricing tr.pricinglastrow td {
 
 .lighter { color: #999 }
 .smaller { font-size: 80%; }
+.smallest { font-size: 75%; }
 .bigger { font-size: 120%; }
 .centre { text-align: center }
 .indent {margin-left: 20px}
+.right {float: right;}
+.left {float: left;}
+
+.right.inline {
+  margin-left: 20px; margin-bottom: 20px
+}
+.right.inline p {
+  text-align: right;
+  margin-top: 0px;
+}
+.lighter.inline a {
+  color: #999;
+}
+.left.inline {
+  margin-right: 20px; margin-bottom: 20px
+}
 
 .socialicon {
   padding-right: 8px;
@@ -446,9 +463,10 @@ div.separator {
 }
 
 .hilight {background:#ff0;}
-.hilight2 {background:#6FF;} 
+.hilight2 {background:#6FF;}
 
 .highlight pre {
   background-color: #eee;
   padding: 10px;
 }
+
