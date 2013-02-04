@@ -7,13 +7,13 @@ bodyid: blog
 
 {% for post in site.posts limit:3 %}
   <div class="entry">
-  
+
     <a href="{{ post.url }}" title="{{ post.title }}"><h2>{{ post.title }}</h2></a>
     <div class="info">
       <span class="day">{{ post.date | date: "%A" }}, {{ post.date | date: "%b" }} {{ post.date | date: "%d" }} {{ post.date | date: "%Y" }}</span>
-      <div class="author">posted by <a href="https://onetimesecret.com/about">{{ post.who }}</a></div>
+      <span class="author">posted by <a href="https://onetimesecret.com/about">{{ post.who }}</a></span>
     </div>
-    
+
     <!--
     categories [
       {% for topic in post.topics %}
@@ -21,18 +21,18 @@ bodyid: blog
       {% endfor %}
     ]
     -->
-    
+
      <div class="content">
        {{ post.content }}
      </div>
-     
+
   </div>
-  
+
   {% if forloop.rindex0 > 0 %}
     <div class="separator"></div>
   {% endif %}
 {% endfor %}
-   
-   
-   
+
+
+
    <div style="margin: 40px 0 0 40px;"><h3>See <a href="/archive/">the archive</a> for more</h3></div>
