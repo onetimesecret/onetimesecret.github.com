@@ -4,7 +4,7 @@ title: Major UI update (with mobile support)
 who: delano
 ---
 
-I worked on a new UI over the weekend and pushed it live today. Thanks to [Twitter's Bootstrap](http://twitter.github.com/bootstrap/) framework, it's cleaner, easier to use, and works great on small (mobile) screens too. Here are a couple comparisons (old vs new):
+I worked on a new UI over the weekend and pushed it live today. Thanks to [Twitter's Bootstrap](http://twitter.github.com/bootstrap/) framework it's cleaner, easier to use, and works great on small (mobile) screens too. Here are a couple comparisons (old vs new):
 
 ## Homepage
 <img alt="Homepage v2" src="/img/blog/2013/ots-homepage-v2s.png" style="border: solid 1px #ccc"/>
